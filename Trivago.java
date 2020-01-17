@@ -21,8 +21,8 @@ public class Trivago {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		driver.findElement(By.xpath("//*[@id=\"register_password\"]")).sendKeys("applesbaby2/");
-		driver.findElement(By.cssSelector("#register_email_submit")).click();
+		driver.findElement(By.xpath("//*[@id=\"login_password\"]")).sendKeys("applesbaby2/");
+		driver.findElement(By.cssSelector("#login_submit")).click();
 		
 		
 		
